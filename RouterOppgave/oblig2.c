@@ -189,19 +189,6 @@ int main(int argc, char *argv[]) {
                 scanf("%d", &comp3);
                 router_set_bit(map[comp2], 5, comp3);
 
-                /*
-                TODO: Ble ikke ferdig helt her, inkrementering for laveste
-                4 bits i flag... Trenger egentlig hjelp her. Dette er det
-                eneste jeg ikke fikk til av kravspec. Meningen her er aa
-                inkrementere de siste fire bitene av flag-charen med 1 slik
-                at endringsnummeret gaar mot 15, hvor det da nektes bruker
-                aa gi input, som vist over.
-
-                low++;
-                map[comp2]->flag & 0xF = low & 0xF;
-
-                */
-
 
             }
 
