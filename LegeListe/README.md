@@ -21,20 +21,3 @@ Programmet kjøres med
 java Oblig4 <inputfil>
 ```
 
-## Inputfiler
-Du finner også inputfilene på http://folk.uio.no/inf1010/v17/oblig/4/samples
-
-### Automatisk nedlastning og utpakking
-Disse kommandoene bør fungere på Linux og Mac. Sørg for at du er i riktig mappe.
-
-#### Med zip
-```sh
-wget http://folk.uio.no/inf1010/v17/oblig/4/samples/alle.zip
-unzip alle.zip
-```
-
-#### Med tarball
-```sh
-wget http://folk.uio.no/inf1010/v17/oblig/4/samples/alle.tgz
-tar -xvf alle.tgz
-```
