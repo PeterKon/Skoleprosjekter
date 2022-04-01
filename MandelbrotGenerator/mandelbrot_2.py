@@ -139,4 +139,4 @@ def mandelbrot_image(xmin,xmax,ymin,ymax,width,height,maxiter,fname,color_choice
             plt.show()
 
 
-#mandelbrot_image(-2.0,0.5,-1.25,1.25,500,500,50)
+mandelbrot_image(-2.0,0.5,-1.25,1.25,500,500,50)
